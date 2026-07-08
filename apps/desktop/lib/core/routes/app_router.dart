@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../features/home/presentation/pages/home_page.dart';
+import '../../features/video_source/presentation/pages/connection_page.dart';
 
 class AppRouter {
   AppRouter._();
@@ -9,7 +9,7 @@ class AppRouter {
     switch (settings.name) {
       case '/':
       default:
-        return MaterialPageRoute(builder: (_) => const HomePage());
+        return MaterialPageRoute(builder: (_) => const ConnectionPage());
     }
   }
 }
